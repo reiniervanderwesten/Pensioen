@@ -1,7 +1,7 @@
 print("Wat is je leeftijd?")
 leeftijd=int(input("Voer het aantal jaren in: "))
 print("Wat is je werkstatuut?")
-werkstatuut=input("voer in: medewerker zelfstandige of ambtenaar: ")
+werkstatuut=input("voer in: medewerker, zelfstandige of ambtenaar: ")
 
 def pensioenstatus(a,b):    #bij deze functie horen de 2 argumenten leeftijd en werkstatuut. Zie hiervoor regel 32.
     if a<65:        # De situatie dat iemand beneden de pensioengerechtigde leeftijd zit. 
