@@ -36,6 +36,6 @@ pensionado_vs_arbeider=uitkomst[1]  # pensionado_vs_arbeider is gelijk aan D2.
 
 print("")
 if recht_op_pensioen==False:
-    print(f"Van werken wordt je gelukkig, je mag nog {pensionado_vs_arbeider} jaren genieten van je baan.")
+    print(f"Van werken wordt je gelukkig, je mag nog {pensionado_vs_arbeider} jaar genieten van je baan.")
 if recht_op_pensioen==True:
     print(f"Je krijgt  € {pensionado_vs_arbeider} per week.")
